@@ -10,4 +10,4 @@ script:
 
 before_install:
   - docker build . -t srgupta5328/go-k8s:0.0.3
-  - docker push docker.io/srgupta328/g-k8s:0.0.3
+  - docker push docker.io/srgupta5328/g-k8s:0.0.3
