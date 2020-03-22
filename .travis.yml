@@ -1,3 +1,11 @@
 language: go
 go: 1.12.x
 
+services:
+  - docker
+
+before_install:
+  - docker build -t srgupta5328/go-k8s:0.0.3
+  - docker push srgupta5328/go-k8s:0.0.3
+  - docker build -t srgupta5328/go-k8s:latest
+  - docker push srgupta5328/go-k8s:latest
