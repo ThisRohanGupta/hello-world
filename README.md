@@ -1,5 +1,7 @@
 # Hello World
 
+[![Build Status](https://travis-ci.org/rohangupta5328/hello-world.svg?branch=master)](https://travis-ci.org/rohangupta5328/hello-world)
+
 This project is just to practice GoLang and stay up to date with the latest and greatest stuff. Keeping my golang skills fresh in my free time.
 
-Practice
+
