@@ -12,5 +12,4 @@ before_install:
   - docker build . -t srgupta5328/go-k8s:latest
   - docker push srgupta5328/go-k8s:latest
 
-after-deploy:
-  - "curl -X POST -H 'content-type: application/json' --url "$url" -d '{"application":"gWjmb9vjSkqmYK8v1j3NNA","parameters":{"commitId":"commitId_placeholder","repositoryNAME":"repositoryNAME_placeholder"}}'"
+  
