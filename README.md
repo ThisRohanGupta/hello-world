@@ -18,3 +18,5 @@ CMD ["/app/main"]
 
 Repo: https://hub.docker.com/repository/docker/srgupta5328/go-k8s 
 
+## Sample GoLang Project
+This project is a sample project to demo CI/CD. 
