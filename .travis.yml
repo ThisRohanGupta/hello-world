@@ -4,10 +4,8 @@ go: 1.12.x
 services:
   - docker
 
-script:
-- echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-
 
 before_install:
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - docker build . -t srgupta5328/go-k8s:0.0.3
   - docker push srgupta5328/go-k8s:0.0.3
