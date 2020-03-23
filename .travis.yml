@@ -7,9 +7,8 @@ services:
 
 before_install:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker build . -t srgupta5328/go-k8s:0.0.4
-  - docker push srgupta5328/go-k8s:0.0.4
+  - docker build . -t srgupta5328/go-k8s:0.0.5
+  - docker push srgupta5328/go-k8s:0.0.5
   - docker build . -t srgupta5328/go-k8s:latest
   - docker push srgupta5328/go-k8s:latest
 
-  
