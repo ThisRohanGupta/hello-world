@@ -19,6 +19,6 @@ spec:
       containers:
       - name: {{.Values.name}}
         image: {{.Values.image}}
-         ports:
-        - containerPort: 8090
+      ports:
+      - containerPort: 8090
 
