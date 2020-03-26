@@ -1,5 +1,5 @@
 name: go-k8s
-replicas: 1
+replicas: ${serviceVariable.instance}
 
 image: ${artifact.metadata.image}
 dockercfg: ${artifact.source.dockerconfig}
